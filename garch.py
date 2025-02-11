@@ -19,7 +19,7 @@ from sklearn.metrics import mean_squared_error
 #     n = len(x)
 #     x_sq = x ** 2
 #     x_sum = np.sum(x_sq)
-#     x_lag_sum = np.sum(x_sq[:-k])              # slicing is always weird bc
+#     x_lag_sum = np.sum(x_sq[:-k])              
 #     test = n * (n + 2) * x_lag_sum / (x_sum ** 2)
 #     # df = k
 #     p_value = 1 - chi2.cdf(test, k)
